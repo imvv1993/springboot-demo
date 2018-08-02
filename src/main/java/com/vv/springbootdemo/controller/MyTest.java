@@ -6,6 +6,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+/**
+ * spring boot 测试应用
+ */
 @Controller
 @EnableAutoConfiguration
 public class MyTest {
@@ -15,7 +18,4 @@ public class MyTest {
         return "MyTest: Hello World!";
     }
 
-    public static void main(String[] args) throws Exception {
-        SpringApplication.run(MyTest.class, args);
-    }
 }
